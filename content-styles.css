@@ -1,0 +1,122 @@
+#logo{
+  height: 150px;
+  width: 400px;
+  margin-left: 20px; 
+}
+#nav{
+  /* background-color:aliceblue; */
+  opacity: 5;
+  height: 150px ;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-decoration: none;
+}
+#navbar{
+  list-style: none;
+  padding-top: 0px;
+  /* padding-left: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0 , 0, 0, 0.34);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.seconditem{
+  margin-top: 55px;
+  margin-right: 20px ;
+  font-size: 25px;
+  text-decoration: none;
+}
+a.seconditem{
+  text-decoration: none;
+  color:azure;
+}
+html{
+  height: 100%;
+  background-image: url(Background-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+main{
+  margin: 5%;
+}
+section{
+  width: auto;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 10px 30px black;
+  background-color: rgba(255 , 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);  
+}
+.items{
+  margin: 2% 0% 2% 0%;
+  min-height: 250px;
+  min-width: 800px;
+  background-color: azure;
+  border: solid;
+  border-radius: 5px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border-style: none;
+  box-shadow: 10px 10px 30px black;
+}
+.image{
+  margin: 2% 0% 2% 0%;
+  /* margin-left: 550px; */
+  background-color: rgba(0 , 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); 
+  min-width: 350px;
+  height: 350px;
+}
+.making{
+  list-style: none;
+  max-width: 800px;
+  height: auto;
+}
+.making li{
+  margin: 30px;
+  background-color: bisque;
+}
+.image{
+  border:solid;
+  border-radius: 5px;
+  border-spacing: 0px 0px 0px 0px;
+  border-style: none;
+}
+.heading{
+  margin: 5px 5px 5px 5px ;
+  background-color: burlywood;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+.dishname{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.need{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px ;
+  list-style:square;
+}
+.need li{
+  margin: 10px 10px 0px 10px;
+}
+.items h5{
+  padding: 5px;
+}

@@ -1,0 +1,84 @@
+#logo{
+  height: 150px;
+  width: 400px;
+  margin-left: 20px; 
+}
+#nav{
+  /* background-color:aliceblue; */
+  opacity: 5;
+  height: 150px ;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-decoration: none;
+}
+#navbar{
+  list-style: none;
+  padding-top: 0px;
+  /* padding-left: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0 , 0, 0, 0.34);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.seconditem{
+  margin-top: 55px;
+  margin-right: 20px ;
+  font-size: 25px;
+  text-decoration: none;
+}
+a.seconditem{
+  text-decoration: none;
+  color:azure;
+}
+html{
+  height: 100%;
+  background-image: url(Background-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+.container{
+  min-height: 80px;
+  margin: 5%;
+}
+.item{
+  margin: 2% 2% 2% 2%;
+  background-color: azure;
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  box-shadow: 10px 10px 30px black;
+  background-color: rgba(255 , 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.item a{
+  text-decoration: none;
+  color: black;
+}
+.name{
+  background-color: burlywood;
+  width: 1000px;
+  height: 120px;
+  padding-top: 40px;
+  box-shadow: 10px 10px 30px black;
+  text-align: center;
+}
+.image img{
+  max-height: 120px;
+  max-width: 120px;
+  border: 1 solid black;
+  border-style: dashed;
+  border-radius: 5px;
+  border-style: none;
+}

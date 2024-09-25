@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+html{
+	background-image: url(Background-6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;	
+}
+.navbar{
+	background-color: rgba(0, 0, 0, 0.34);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+	margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+	height: 150px;
+}
+.navitems{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	list-style: none;	
+}
+.navmenu{
+	margin-top: 55px;
+  margin-right: 20px ;
+  font-size: 25px;
+}
+a.navmenu{
+	text-decoration: none;
+	color: azure;
+	/* border: 25px; */
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+  height: 150px;
+  width: 400px;
+  margin-right: 20px; 
+}
+
+.main{
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  margin: 5%;
+  border-width: 5px;border-style:double solid; border-color:#000000
+}
+#Heading{
+  text-align: center;
+}
+h3{
+  margin-left: 40px;
+}
+#head{
+  margin-left: 60px;
+}
+h4{
+  display: inline;
+}
+.Heading{
+  margin-left: 40px;
+}
+ol{
+  margin-left: 60px;
+}
+ul{
+  margin-left: 60px;
+}
